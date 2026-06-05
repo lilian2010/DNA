@@ -1,0 +1,15 @@
+# Example hyperparameters for a small DNA GPT pretraining run.
+# Translate these values to dna-llm-pretrain CLI flags.
+block_size: 256
+n_layer: 6
+n_head: 6
+n_embd: 384
+dropout: 0.1
+batch_size: 32
+max_steps: 10000
+learning_rate: 0.0003
+weight_decay: 0.1
+warmup_steps: 500
+eval_interval: 500
+eval_batches: 50
+validation_fraction: 0.05
