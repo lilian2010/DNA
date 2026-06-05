@@ -1,0 +1,15 @@
+# Example hyperparameters for supervised multimodal expression prediction.
+# Translate these values to dna-llm-train-expression CLI flags.
+block_size: 512
+sequence_embedding_dim: 128
+hidden_dim: 256
+dropout: 0.1
+batch_size: 32
+max_steps: 5000
+learning_rate: 0.001
+weight_decay: 0.01
+warmup_steps: 250
+eval_interval: 250
+eval_batches: 25
+validation_fraction: 0.1
+omics_prefix: omics_
